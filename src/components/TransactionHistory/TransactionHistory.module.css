@@ -1,0 +1,27 @@
+.container {
+    margin: 0 auto;
+    font-size: 22px;
+    border-spacing: 0;
+}
+
+.thead {
+    color: white;
+    background-color: rgb(42, 42, 42);
+} 
+
+.headText {
+    border: 1px solid black;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+}
+
+.bodyText {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: grey;
+}

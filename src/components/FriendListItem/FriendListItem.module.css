@@ -1,0 +1,29 @@
+.container {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 70px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.online {
+    composes: text;
+    color: green;
+}
+
+.offline {
+    composes: text;
+    color: red;
+}

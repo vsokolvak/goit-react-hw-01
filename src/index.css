@@ -24,11 +24,23 @@ a:hover {
 }
 
 body {
+  padding: 20px;
   margin: 0;
   display: flex;
-  place-items: center;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {

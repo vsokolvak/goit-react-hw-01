@@ -1,0 +1,65 @@
+
+
+.container {
+    border: 2px solid black;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 15px;
+    gap: 10px;
+}
+
+.infoImg {
+    border-radius: 50%;
+}
+
+.infoText {
+    font-size: 20px;
+    color: grey;
+}
+
+.infoTitle {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.List {
+    display: flex;
+}
+
+.item {
+    background-color: grey;
+    border: 1px solid black;
+    transition: all 0.2s ease;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 15px;
+    width: 33.33%;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: rgba(128, 128, 128, 0.498);
+}
+
+.itemText {
+    font-size: 20px;
+    color: black;
+}
+
+.itemNumber {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
